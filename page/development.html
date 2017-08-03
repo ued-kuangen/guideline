@@ -1,0 +1,28 @@
+<div class="row">
+  <div class="col-xs-3 col-sm-3 col-lg-2 main-nav">
+    <div class="nav">
+      <ul class="left_menu">
+        <li>
+          <a href="" ng-click="openPage('development.started')" ng-class="{'selected': selectedItem === 'started'}">快速上手</a>
+        </li>
+        <li>
+          <a href="" ng-click="openPage('development.practical')" ng-class="{'selected': selectedItem === 'practical'}">项目实战</a>
+        </li>
+        <li>
+          <a href="" ng-click="openPage('development.changelog')" ng-class="{'selected': selectedItem === 'changelog'}">更新日志</a>
+        </li>
+        <li>
+          <a href="" ng-click="showComponents = !showComponents">组件<i class="fa fa-angle-down pull-right"></i></a>
+        </li>
+        <div class="menu-content-area" ng-show="showComponents">
+          <ul class="sub-ul">
+            <li ng-repeat="item in components"><a href="" ng-click="openPage(item.state)" ng-class="{'selected': selectedItem === item.state}">{{item.name}}</a></li>
+          </ul>
+        </div>
+      </ul>
+    </div>
+  </div>
+  <div class="col-xs-9 col-sm-9 col-lg-10 content-border">
+    <div ui-view="lazyLoadView"></div>
+  </div>
+</div>

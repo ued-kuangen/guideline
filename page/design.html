@@ -1,0 +1,40 @@
+<div class="row">
+  <div class="col-xs-3 col-sm-3 col-lg-2 main-nav">
+    <div class="nav">
+      <ul class="left_menu">
+
+        <li>
+          <a href="" ng-click="design = !design">设计原则<i class="fa fa-angle-down pull-right"></i></a>
+        </li>
+        <div class="menu-content-area" ng-show="design">
+          <ul class="sub-ul">
+            <li ng-repeat="item in designList"><a href="" ng-click="openPage(item.state)" ng-class="{'selected': selectedItem === item.state}">{{item.name}}</a></li>
+          </ul>
+        </div>
+        <li>
+          <a href="" ng-click="base = !base">基础<i class="fa fa-angle-down pull-right"></i></a>
+        </li>
+        <div class="menu-content-area" ng-show="base">
+          <ul class="sub-ul">
+            <li ng-repeat="item in baseList"><a href="" ng-click="openPage(item.state)" ng-class="{'selected': selectedItem === item.state}">{{item.name}}</a></li>
+          </ul>
+        </div>        
+        <li>
+          <a href="" ng-click="visual = !visual">规格<i class="fa fa-angle-down pull-right"></i></a>
+        </li>
+        <div class="menu-content-area" ng-show="visual">
+          <ul class="sub-ul">
+            <li ng-repeat="item in visualList"><a href="" ng-click="openPage(item.state)" ng-class="{'selected': selectedItem === item.state}">{{item.name}}</a></li>
+          </ul>
+        </div>
+        <li>
+          <a href="" ng-click="download = !download">资源下载</a>
+        </li>
+
+      </ul>
+    </div>
+  </div>
+  <div class="col-xs-9 col-sm-9 col-lg-10 content-border">
+    <div ui-view="lazyLoadView"></div>
+  </div>
+</div>

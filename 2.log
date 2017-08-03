@@ -1,0 +1,46 @@
+nohup: ignoring input
+
+> guideline@1.0.0 start /home/sysadmin/acornGuide/guideline
+> node node_modules/http-server/bin/http-server -p 8000 -o
+
+[33mStarting up http-server, serving [39m[36m./[39m[33m
+Available on:[39m
+[32m  http://127.0.0.1:8000[39m
+[32m  http://172.21.129.2:8000[39m
+Hit CTRL-C to stop the server
+[Mon Dec 12 2016 18:14:37 GMT+0800 (CST)] "[36mGET[39m [36m/[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:37 GMT+0800 (CST)] "[36mGET[39m [36m/js/lib/bootstrap/dist/css/bootstrap.min.css[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:37 GMT+0800 (CST)] "[36mGET[39m [36m/css/app.min.css[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:37 GMT+0800 (CST)] "[36mGET[39m [36m/css/font-awesome.min.css[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:37 GMT+0800 (CST)] "[36mGET[39m [36m/css/github.css[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:37 GMT+0800 (CST)] "[36mGET[39m [36m/assets/animate.css/animate.css[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:37 GMT+0800 (CST)] "[36mGET[39m [36m/assets/font-awesome/css/font-awesome.min.css[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:37 GMT+0800 (CST)] "[36mGET[39m [36m/assets/simple-line-icons/css/simple-line-icons.css[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:37 GMT+0800 (CST)] "[36mGET[39m [36m/css/font.css[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:37 GMT+0800 (CST)] "[36mGET[39m [36m/css/index.css[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:37 GMT+0800 (CST)] "[36mGET[39m [36m/js/lib/angular/angular.min.js[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:37 GMT+0800 (CST)] "[36mGET[39m [36m/js/lib/angular-ui-router/release/angular-ui-router.min.js[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:37 GMT+0800 (CST)] "[36mGET[39m [36m/js/lib/jquery/dist/jquery.min.js[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:37 GMT+0800 (CST)] "[36mGET[39m [36m/js/lib/bootstrap/dist/js/bootstrap.min.js[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:37 GMT+0800 (CST)] "[36mGET[39m [36m/js/lib/oclazyload/dist/ocLazyLoad.min.js[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:37 GMT+0800 (CST)] "[36mGET[39m [36m/js/lib/angular-animate/angular-animate.min.js[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:37 GMT+0800 (CST)] "[36mGET[39m [36m/js/rainbow-custom.min.js[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:37 GMT+0800 (CST)] "[36mGET[39m [36m/js/router.js[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:37 GMT+0800 (CST)] "[36mGET[39m [36m/js/app.js[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:37 GMT+0800 (CST)] "[36mGET[39m [36m/page/introduce.html[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:37 GMT+0800 (CST)] "[36mGET[39m [36m/fonts/sourcesanspro/sourcesanspro-bold.woff[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:37 GMT+0800 (CST)] "[36mGET[39m [36m/fonts/sourcesanspro/sourcesanspro.woff[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:38 GMT+0800 (CST)] "[36mGET[39m [36m/favicon.ico[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:38 GMT+0800 (CST)] "[31mGET[39m [31m/favicon.ico[39m" Error ([31m404[39m): "[31mNot found[39m"
+[Mon Dec 12 2016 18:14:41 GMT+0800 (CST)] "[36mGET[39m [36m/page/design.html[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:41 GMT+0800 (CST)] "[36mGET[39m [36m/page/design/distance.html[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:41 GMT+0800 (CST)] "[36mGET[39m [36m/assets/font-awesome/fonts/fontawesome-webfont.woff?v=4.2.0[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:41 GMT+0800 (CST)] "[36mGET[39m [36m/fonts/sourcesanspro/sourcesanspro-light.woff[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:41 GMT+0800 (CST)] "[36mGET[39m [36m/images/distance.png[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:41 GMT+0800 (CST)] "[36mGET[39m [36m/video/distance-1.mp4[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:42 GMT+0800 (CST)] "[36mGET[39m [36m/page/development.html[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:42 GMT+0800 (CST)] "[36mGET[39m [36m/page/indexPage.html[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:44 GMT+0800 (CST)] "[36mGET[39m [36m/page/operate.html[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:46 GMT+0800 (CST)] "[36mGET[39m [36m/video/distance-1.mp4[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:47 GMT+0800 (CST)] "[36mGET[39m [36m/video/distance-1.mp4[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"
+[Mon Dec 12 2016 18:14:49 GMT+0800 (CST)] "[36mGET[39m [36m/video/distance-1.mp4[39m" "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/51.0.2704.106 Safari/537.36"

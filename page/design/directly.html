@@ -1,0 +1,44 @@
+<div class="row">
+	<div class="col-md-10 col-xs-10">
+		<div class="lter wrapper-md">
+			<h1 class="m-n font-normal h3">直接</h1>
+		</div>
+		<div class="wrapper-md">
+			<div class="row">
+				<div class="col-md-12">
+					<p> Alan Cooper 所言：『需要在哪里输出，就要允许在哪里输入』。这就是直接操作的原理 —— 不要为了编辑内容而打开另一个页面，应该直接在上下文中实现编辑。</p>
+					<section>
+						<h4 class="m-t-lg" id="directly-1">页内编辑</h4>
+						<h5>单字段行内编辑</h5>
+						<p>当『易读性』远比『易编辑性』重要时，可以使用『单击编辑』。</p>
+						<video src="video/directly-1.mp4" class="img-responsive" controls="controls"></video>
+						<p>当『易读性』为主，同时又要突出操作行的『易编辑性』时，可使用『文字链/图标编辑』。</p>
+						<video src="video/directly-2.mp4" class="img-responsive" controls="controls"></video>
+						<h5>多字段行内编辑</h5>
+						<p class="text-muted text-tag">注：在『多字段行内编辑』的情况下，显示的内容和编辑时所需的字段会存在比较大的差异，所以需要<a href="#">反应</a>原则中的『解释刚刚发生了什么』来消除这种视觉影响。</p>
+						<video src="video/directly-3.mp4" class="img-responsive" controls="controls"></video>
+						<p>更多有关『页内编辑』的模式，可查看『模式／表格』中的内容。</p>
+					</section>
+					<section>
+						<h4 class="m-t-lg" id="directly-2">利用拖放</h4>
+						<p>只能限制在一个维度（上/下或者左/右）进行拖放。</p>
+						<h5>拖放列表</h5>
+						<p>通常用于列表、表格项等排序操作</p>
+						<video src="video/directly-4.mp4" class="img-responsive" controls="controls"></video>
+						<h5>拖放对象</h5>
+						<p>通常用于导入、添加等操作。</p>
+						<video src="video/directly-5.mp4" class="img-responsive" controls="controls"></video>
+					</section>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-2 col-xs-2">
+		<div class="suspension-area">
+			<ul class="notype">
+				<li ng-click="anchor('directly-1')">页内编辑</li>
+				<li ng-click="anchor('directly-2')">利用拖放</li>
+			</ul>
+		</div>
+	</div>
+</div>

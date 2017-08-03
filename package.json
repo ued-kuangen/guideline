@@ -1,0 +1,19 @@
+{
+  "name": "guideline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "http-server": "^0.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node node_modules/http-server/bin/http-server -p 8000 -o"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@172.17.3.60:dongdong.wang/guideline.git"
+  },
+  "author": "",
+  "license": "ISC"
+}

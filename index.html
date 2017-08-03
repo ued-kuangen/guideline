@@ -1,62 +1,51 @@
----
-layout: default
-title: Blog
----
-<div class="well">
-    <div class="list-group">
-      {% for post in paginator.posts %}
-      <div class="list-group-item">
-        <div class="row-action-primary">
-          <i class="fa fa-sticky-note"></i>
-        </div>
-        <div class="row-content">
-          <div class="least-content">{{ post.date | date_to_string }}</div>
-          <h4 class="list-group-item-heading"><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h4>
+<!DOCTYPE html>
+<html ng-app="myApp">
 
-          <p class="list-group-item-text">{{ post.content | strip_html | truncatewords: 20 }}</p>
-        </div>
-      </div>
-      <div class="list-group-separator"></div>
-      {% endfor %}
+<head>
+  <meta charset="utf-8">
+  <title>匡恩UI设计指南</title>
+  <link rel="stylesheet" href="js/lib/bootstrap/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/app.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/github.css">
+  <link rel="stylesheet" href="assets/animate.css/animate.css">
+  <link rel="stylesheet" href="assets/font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="assets/simple-line-icons/css/simple-line-icons.css">
+  <link rel="stylesheet" href="css/font.css">
+  <link rel="stylesheet" href="css/index.css">
+</head>
+
+<body ng-controller="appCtrl">
+<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <a class="navbar-brand" href="#">UI Guideline </a>
     </div>
-   
 
-    <!-- Pagination links -->
-    {% if paginator.total_pages > 1 %}
-    <ul class="pager">
-      {% if paginator.previous_page %}
-        <li class="previous">
-          <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;</a>
-        </li>
-      {% else %}
-        <li class="previous disabled"><span aria-hidden="true">&laquo;</span></li>
-      {% endif %}
-
-      <li><a href="/">First</a></li>
-
-      {% for page in (1..paginator.total_pages) %}
-        {% if page == paginator.page %}
-          <li class="active">
-             <a>{{ page }}<span class="sr-only">(current)</span></a>
-          </li>
-        {% elsif page == 1 %}
-          <li><a href="/">{{ page }}</a></li>
-        {% else %}
-          <li>
-            <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-          </li>
-        {% endif %}
-      {% endfor %}
-
-      <li><a href="/page{{ paginator.total_pages }}/">Last</a></li>
-
-      {% if paginator.next_page %}
-        <li class="next">
-          <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">&raquo;</a>
-        </li>
-      {% else %}
-        <li class="next disabled"><span>&raquo;</span></li>
-      {% endif %}
+    <ul class="nav navbar-nav navbar-right main-nav">
+      <li><a href="" ng-click="openPage('introduce')" ng-class="{'active': selectedItem === 'introduce'}">介绍</a></li>
+      <li><a href="" ng-click="openPage('design.distance')"
+             ng-class="{'active': selectedItem.indexOf('design') !== -1}">设计</a></li>
+      <li><a href="" ng-click="openPage('development.started')"
+             ng-class="{'active': selectedItem.indexOf('development') !== -1}">开发</a></li>
+      <li><a href="" ng-click="openPage('operate')" ng-class="{'active': selectedItem === 'operate'}">运营</a></li>
     </ul>
-    {% endif %}
-</div><!-- end #home -->
+  </div>
+
+</nav>
+<div class="container-fluid main-wrapper">
+  <div ui-view="main"></div>
+</div>
+<script src="js/lib/angular/angular.min.js"></script>
+<script src="js/lib/angular-ui-router/release/angular-ui-router.min.js"></script>
+<script src="js/lib/jquery/dist/jquery.min.js"></script>
+<script src="js/lib/bootstrap/dist/js/bootstrap.min.js"></script>
+<script src="js/lib/oclazyload/dist/ocLazyLoad.min.js"></script>
+<script src="js/lib/angular-animate/angular-animate.min.js"></script>
+<script src="js/rainbow-custom.min.js"></script>
+<script src="js/router.js"></script>
+<script src="js/app.js"></script>
+
+</body>
+
+</html>

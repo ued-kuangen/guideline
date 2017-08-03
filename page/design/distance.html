@@ -1,0 +1,46 @@
+<div class="row">
+	<div class="col-md-10 col-xs-10">
+		<div class="lter wrapper-md">
+			<h1 class="m-n font-normal h3">距离</h1>
+		</div>
+		<div class="wrapper-md">
+			<div class="row">
+				<div class="col-md-12">
+					<p>距离是构成元素的基础属性，我们把间距、宽高、大小等距离值通过一个量化公式进行统一计算，以实现元素间的兼容性及布局的美观性。</p>
+					<section>
+						<h4 class="m-t-lg" id="dis-1">量化公式</h4>
+						<pre><code data-language="javascript">距离 = 8 + 8 * 倍数</code></pre>
+						<p>我们以 8px 为最小单位，大多数涉及到距离的元素都可通过该公式得出最终值。</p>
+						<p class="text-muted text-tag">部分尺寸可变的控件，比如对话框、菜单、输入框等，宽度可以按56的整数倍来设计。</p>
+					</section>
+					<section>
+						<h4 class="m-t-lg" id="dis-2">亲疏关系</h4>
+						<p>如果信息之间关联性越高，它们之间的距离就应该越接近，也越像一个视觉单元；反之，则它们的距离就应该越远，也越像多个视觉单元。间距的根本目的是实现组织性，让用户对页面结构和信息层次一目了然。</p>
+						<p>根据量化公式，我们设定以下 3种间距类型来划分信息层次：</p>
+						<ul>
+							<li>( 小号间距 ) 8px</li>
+							<li>( 中号间距 ) 16px</li>
+							<li>( 大号间距 ) 24px</li>
+						</ul>
+						<video src="video/distance-1.mp4" class="img-responsive" controls="controls"></video>
+					</section>
+					<section>
+						<h4 class="m-t-lg" id="dis-3">分割与留白</h4>
+						<p>通过对间隔的控制，我们更推荐使用留白来划分元素间的间隙（高优先级），而分割线则是低优先级，在保证信息识别的前提下，进一步精简界面，减少对用户的干扰。谨慎使用交替背景色，特别是表格的设计中。</p>
+						<p>对于整体页面布局,不要把界面分割成太多的区域，灵活并合理利用留白来勾勒出二级空间。</p>
+						<img src="images/distance.png" width="600" height="400" />
+					</section>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-2 col-xs-2">
+		<div class="suspension-area">
+			<ul class="notype">
+				<li ng-click="anchor('dis-1')">量化公式</li>
+				<li ng-click="anchor('dis-2')">亲疏关系</li>
+				<li ng-click="anchor('dis-3')">分割与留白</li>
+			</ul>
+		</div>
+	</div>
+</div>
