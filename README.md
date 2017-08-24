@@ -1,1 +1,1 @@
-https://github.com/ued-kuangen/guideline
+https://ued-kuangen.github.io/guideline
